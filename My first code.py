@@ -7,5 +7,5 @@ print("----------------------")
 
 name = input("Enter your word : ")
 age = input("Enter your word : ")
-
-print("----------------------")
+number = input("Enter your mobile no : ")
+print("-----------------------")

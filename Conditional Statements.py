@@ -13,7 +13,7 @@ else:
 
 # elif    switchboard
 
-switchboard = "z"
+"""switchboard = "z"
 while True:
     print("switchboard menu: ")
     print("1. Ligth buttun")
@@ -31,10 +31,18 @@ while True:
     elif option == 4:
         print("Refrigerator is trun on")
     else:
-        print("Invalid option - Please try again")
+        print("Invalid option - Please try again")"""
 
+# grade marks
+marks = float(input("Enter your marks:- "))
 
-
-         
-
+if (marks >= 90):
+    grade = "S+"
+elif(marks > 80):
+    grade = "A+"
+elif(marks > 70):
+    grade = "A"
+else:
+    grade = "F"
+    print("Here your grade :- ", grade)
 

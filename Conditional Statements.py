@@ -33,7 +33,7 @@ while True:
     else:
         print("Invalid option - Please try again")"""
 
-# grade marks
+# Grade marks
 marks = float(input("Enter your marks:- "))
 
 if (marks >= 90):

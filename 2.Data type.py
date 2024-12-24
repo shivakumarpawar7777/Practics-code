@@ -1,4 +1,5 @@
-"""# Data type in python
+"""
+# Data type in python
 1. Numaric type :- 
 i. intager:- whole number worth can be any lenth like >>> 1, 99, 555, 9876   ........etc
 ex:- 
@@ -17,6 +18,7 @@ z = 5 + 7j
 print(z)
 print(type(z))
 """
+
 #2. String:- a sequence of charecters inside single, duble and thriple quation.
 #Ex:- 
 #  single quation         |     duble quation        |         triple quation
@@ -64,6 +66,7 @@ print(type(d))
 ex:- 
 print(type(True))
 print(type(False))
+
 """
 
 

@@ -35,4 +35,36 @@
 >>> weak in mobile computing 
 >>> Database access
 
+# Syntax :- syntex refers to the set of rules that defines the structure of language 
+EX:- 
+print(10+20)
+print("Hello world")
 
+# Identifies - simply call as name like class, variable, function name
+EX:- 
+name = "shivakumar"
+class_flipkar = "flipkar"
+def add_to_cout = "123asdfgh"
+
+# variable decleration :- it is a container that will store the value
+EX:- 
+name = "ram"
+age = 21
+
+note:- it will store the data in PVM (Python virtual machine)
+print(id(name)) # location check
+
+# Rules of variable 
+>>> We can use both lower and Upper-case value 
+>>> We can use numeric link 0-9
+>>> We can use underscore "-"
+>>> We can use a variable starting with charecters.
+
+EX:- 
+Valid variable                    |       invalid variable 
+name = "shiva"                    |  name_@ = "shiva"
+Name = "shiva"                    |  First name = "shiva"
+Username = "shiva"                |  123 Username = "shiva"
+username_123 = "shiva"            |  123456 = "shiva"
+_name = "shiva"                   |
+__name = "shiv"                   |

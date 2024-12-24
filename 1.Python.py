@@ -68,3 +68,10 @@ Username = "shiva"                |  123 Username = "shiva"
 username_123 = "shiva"            |  123456 = "shiva"
 _name = "shiva"                   |
 __name = "shiv"                   |
+
+# Keywords of python
+>>> Special functionlity based on requiment. we cas use it the keywords.
+EX:- 
+if, elif, for, while, and, or, not, in, def, class, raise, True, False, return, 
+break, continue, pass, print, nonlocal, yield, try, except, import, global, range, finally, del, lambda, from, 
+await, async, with, return...................ets.

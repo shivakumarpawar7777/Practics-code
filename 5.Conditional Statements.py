@@ -10,6 +10,8 @@ range >>> generate a sequence of numbres starting from 0
 while >>> Excecutes block of code untill the condition is True.
 
 # transer statement 
+break >>> the excecution of block of code based on the condition.
+pass >>> doe's nothing.
 
 """# if statement:- 
 z = int(input("Enter your number :- "))

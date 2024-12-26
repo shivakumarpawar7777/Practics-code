@@ -1,10 +1,16 @@
-
 # Control flow statements
 # Conditional statements:-
 if >>> Excecuts block of code when condition is true.
 elif (else if) >>> Test condition when, if condition id faild.
 else >>> Exceutes, whenever if & elif is faild.
-    
+
+# iterable statemnts
+for >>>  iterable through a sequence of elements.
+range >>> generate a sequence of numbres starting from 0 
+while >>> Excecutes block of code untill the condition is True.
+
+# transer statement 
+
 """# if statement:- 
 z = int(input("Enter your number :- "))
 if z%2==0:

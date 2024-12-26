@@ -1,4 +1,10 @@
 
+# Control flow statements
+# Conditional statements:-
+if >>> Excecuts block of code when condition is true.
+elif (else if) >>> Test condition when, if condition id faild.
+else >>> Exceutes, whenever if & elif is faild.
+    
 """# if statement:- 
 z = int(input("Enter your number :- "))
 if z%2==0:
@@ -12,8 +18,8 @@ else:
     print("Its odd number: ", z)"""
 
 # elif    switchboard
-
 """switchboard = "z"
+
 while True:
     print("switchboard menu: ")
     print("1. Ligth buttun")
@@ -33,7 +39,7 @@ while True:
     else:
         print("Invalid option - Please try again")"""
 
-# Grade marks
+"""# Grade marks
 marks = float(input("Enter your marks:- "))
 
 if (marks >= 90):
@@ -45,4 +51,4 @@ elif(marks > 70):
 else:
     grade = "F"
     print("Here your grade :- ", grade)
-
+"""

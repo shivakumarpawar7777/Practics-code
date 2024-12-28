@@ -33,5 +33,34 @@ print(number[0:10:2])   #13579
 print(number[1:10:2])   #24680
 print(number[0:10:3])   #1470
 print(number[2:10:3])   #369
+print("_________________________________")
 
+#Membership checking in string 
+# in and not in
 
+s = "Hello welcome to world of python"
+ss = "python"
+print(ss in s )  #True
+print(s in ss )  #False
+print("_________________________________")
+
+s = "Hello welcome to world of python"
+ss = "java"
+print(ss in s )  #False
+print(s in ss )  #False
+print("_________________________________")
+
+s = "Hello welcome to world of python"
+ss = "python"         #ss is available in s
+if ss in s:
+    print("ss is available in s") 
+if ss not in s: 
+    print("ss is notavailable in s")
+print("_________________________________")
+
+s = "Hello welcome to world of python"
+ss = "java"         #ss is notavailable in s
+if ss in s:
+    print("ss is available in s") 
+if ss not in s: 
+    print("ss is notavailable in s")

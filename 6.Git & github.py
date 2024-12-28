@@ -21,7 +21,7 @@ Git config --list
 
 # Git steps
 1. creat a account - git hub
-2. download a app - git hub 
+2. download a app - git hub _____________________________________
 3. creating repository
 >>> git config --global user.name "Shivakumar"
 >>> git config --global user.mail "shiv@gmail.com"

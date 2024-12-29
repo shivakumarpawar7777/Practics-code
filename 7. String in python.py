@@ -112,3 +112,66 @@ print(rp)
 
 rp = s.replace("welcome", "come")
 print(rp)
+
+# Finding of substring in main string 
+#find():- return index position on substring in main string 
+s = "welcome to world of python"
+print(s.find("o"))
+
+print(s.find("p"))
+print(s.find("y"))
+print(s.find("t"))
+print(s.find("h"))
+print(s.find("o"))
+print(s.find("n"))
+print("_________________________________")
+
+#index():- returns index position on substring in main string 
+s = "welcome to world of python"
+print(s.index("w"))
+print(s.find("l"))
+print(s.find("e"))
+print("_________________________________")
+
+#split()
+s = "welcome to world of python"
+print(len(s))
+
+ss = s.split()    #['welcome', 'to', 'world', 'of', 'python']
+print(len(ss))
+print(ss)
+
+s = "welcome to world of python"
+print(len(s))
+
+ss = s.split("o")   #['welc', 'me t', ' w', 'rld ', 'f pyth', 'n']
+print(len(ss))
+print(ss)
+
+ss = s.split("w")   #['', 'elcome to ', 'orld of python']
+print(len(ss))
+print(ss)
+print("_________________________________")
+
+#join()
+l = ['welcome', 'to', 'world', 'of', 'python']
+js = "-".join(l)
+print(js)
+
+js = "=".join(l)
+print(js)
+
+js = "+".join(l)
+print(js)
+
+js = "@".join(l)
+print(js)
+
+js = "#".join(l)
+print(js)
+
+js = "%".join(l)
+print(js)
+
+js = "*".join(l)
+print(js)

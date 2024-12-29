@@ -3,7 +3,7 @@ name = 'shiv'
 name1 = "shiv"
 name2 = """shiv"""
 
-print(name)
+"""print(name)
 print(name1)
 print(name2)
 
@@ -63,4 +63,52 @@ ss = "java"         #ss is notavailable in s
 if ss in s:
     print("ss is available in s") 
 if ss not in s: 
-    print("ss is notavailable in s")
+    print("ss is notavailable in s")"""
+
+#removing spaces from string 
+#strip()
+username = "shivakumar "
+print(len(username))
+
+ss = username.strip()
+print(ss)
+print(len(ss))
+print("_________________________________")
+
+#rstrip()
+username = " shivakumar "
+print(len(username))
+
+rs = username.rstrip()
+print(rs)
+print(len(rs))
+print("_________________________________")
+
+#lstrip()
+username = " shivakumar "
+print(len(username))
+
+ls = username.lstrip()
+print(ls)
+print(len(ls))
+print("_________________________________")
+
+#replace
+s = "Hello welcome to world of python"
+rp = s.replace(" ", "")
+print(rp)
+
+rp = s.replace(" ", "@")
+print(rp)
+
+rp = s.replace(" ", "$")
+print(rp)
+
+rp = s.replace(" ", "#")
+print(rp)
+
+rp = s.replace("python", "java")
+print(rp)
+
+rp = s.replace("welcome", "come")
+print(rp)

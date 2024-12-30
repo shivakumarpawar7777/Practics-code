@@ -252,3 +252,16 @@ print(s.isspace())
 s = " "
 print(s.isspace())
 print("_________________________________")
+
+#checking fist and last part of a string
+#We have 2 metheds :- 1. startwith()  2.endswith()
+email = "asdf@gmail.com"
+website = "www.xxxx.com"
+
+#startwith()
+print(website.startswith("www"))
+print(email.startswith("gmail.com"))
+
+#endswith()
+print(email.endswith("gmail.com"))
+print(website.endswith("www"))

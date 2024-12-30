@@ -175,3 +175,36 @@ print(js)
 
 js = "*".join(l)
 print(js)
+print("_________________________________")
+
+#changing case of a string : 5 method 
+#1.upper():- converts all charectors into uppercase
+s = "welcome to world of python"
+print(s.upper())
+
+#2.lower():- converts all charecters into lower
+s = "WELCOME TO WORLD OF PYTHON"
+print(s.lower())
+
+#3.swapcase():- converta all lowercae into upper and all into lowercase
+s = "welcome to world of python"
+print(s.swapcase())
+
+s = "WELCOME TO WORLD OF PYTHON"
+print(s.swapcase())
+
+#4.titile():- convert fist charecter into each word into uppercase
+s = "welcome to world of python"
+print(s.title())
+
+s = "WELCOME TO WORLD OF PYTHON"
+print(s.title())
+
+#5. Capitaliza():- converts only fist charecter into uppercase
+
+s = "welcome to world of python"
+print(s.capitalize())
+
+s = "WELCOME TO WORLD OF PYTHON"
+print(s.capitalize())
+

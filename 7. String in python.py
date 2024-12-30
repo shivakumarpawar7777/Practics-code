@@ -177,14 +177,19 @@ js = "*".join(l)
 print(js)
 print("_________________________________")
 
-#changing case of a string : 5 method 
+#changing case of a string : 5 method AND check type of a charecter or string
 #1.upper():- converts all charectors into uppercase
 s = "welcome to world of python"
 print(s.upper())
+print(s.isupper())
+print("_________________________________")
 
 #2.lower():- converts all charecters into lower
 s = "WELCOME TO WORLD OF PYTHON"
 print(s.lower())
+print(s.islower())
+
+print("_________________________________")
 
 #3.swapcase():- converta all lowercae into upper and all into lowercase
 s = "welcome to world of python"
@@ -192,13 +197,19 @@ print(s.swapcase())
 
 s = "WELCOME TO WORLD OF PYTHON"
 print(s.swapcase())
+print("_________________________________")
 
 #4.titile():- convert fist charecter into each word into uppercase
 s = "welcome to world of python"
 print(s.title())
+print(s.istitle())
+
 
 s = "WELCOME TO WORLD OF PYTHON"
 print(s.title())
+print(s.istitle())
+
+print("_________________________________")
 
 #5. Capitaliza():- converts only fist charecter into uppercase
 
@@ -207,4 +218,37 @@ print(s.capitalize())
 
 s = "WELCOME TO WORLD OF PYTHON"
 print(s.capitalize())
+print("___________-----------------****%%%%%------------______________________")
 
+#isdiit()
+s = "123456789"
+print(s.isdigit())
+
+s = "welcome to world 1234567 of python"
+print(s.isdigit())
+
+s = "WELCOME TO WORLD OF 123456"
+print(s.isdigit())
+print("_________________________________")
+
+#isalpha()
+s = "hello"
+print(s.isalpha())
+
+s = "hello123456"
+print(s.isalpha())
+print("_________________________________")
+
+#isspace()
+s = " re"
+print(s.isspace())
+
+s = "re "
+print(s.isspace())
+
+s = " re "
+print(s.isspace())
+
+s = " "
+print(s.isspace())
+print("_________________________________")

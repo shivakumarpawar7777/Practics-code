@@ -21,6 +21,10 @@ print("-----------")
 
 # remove():- remover specified element from the list
 l = [10,20,30,40,50,60,70,80,90]
-rm = l.remove(70)
+rm = l.remove(90)
 print(rm)
 
+#clear():- it will remove all element from list & return empty list
+l = [10,20,30,40,50,60,70,80,90]
+rm = l.clear()
+print(rm)

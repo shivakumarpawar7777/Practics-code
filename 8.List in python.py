@@ -28,3 +28,14 @@ print(rm)
 l = [10,20,30,40,50,60,70,80,90]
 rm = l.clear()
 print(rm)
+
+# Ordering of lish 
+#reverse()
+n = [10,20,30,40,50,60,70,80,90]
+n.reverse()
+print(n)
+
+# reverse a list using slicing
+n = [10,20,30,40,50,60,70,80,90]
+print(n[::-1])
+print("-----------")

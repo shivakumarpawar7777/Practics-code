@@ -9,3 +9,5 @@ name = input("Enter your word : ")
 age = input("Enter your word : ")
 number = input("Enter your mobile no : ")
 print("-----------------------")
+
+

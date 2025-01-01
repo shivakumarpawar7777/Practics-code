@@ -57,3 +57,5 @@ print(id(y))
 y[1] = 20
 print(id(x))
 print(id(y))
+
+# list comprekensin :- python program to find even numbre in a list

@@ -39,3 +39,21 @@ print(n)
 n = [10,20,30,40,50,60,70,80,90]
 print(n[::-1])
 print("-----------")
+
+#sort()
+n = [0,9,8,7,6,-5,4,-3]
+n.sort()
+print(n)
+
+# aliasing & cloning
+data = "student data"
+data_copy = "student data"
+
+x = [1,2,3,6]
+y = x
+print(id(x))
+print(id(y))
+
+y[1] = 20
+print(id(x))
+print(id(y))

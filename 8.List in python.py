@@ -59,3 +59,15 @@ print(id(x))
 print(id(y))
 
 # list comprekensin :- python program to find even numbre in a list
+
+l = [10,22,23,42,55,67,89,65]
+l1 = []
+for i in l:
+    if i % 2 == 0:
+        l1.append(i)
+    print(l1)   
+print("-----------")
+
+l1 = [i for i in l if i%2 == 0]
+print(l1) 
+

@@ -28,3 +28,14 @@ print(s)
 
 s.remove("pawar")
 print(s)
+print("-----")
+#Updata()
+s = {1,2,3,4,5,6,7,8,9,0,1,2,3,4,"set",1,2.3,3,4, True}
+s1 = {"preveen", "rama", "shiva", "kishor"}
+s.update(s1)
+print(s)
+
+s = {1,2,3,4,5,6,7,8,9,0,1,2,3,4,"set",1,2.3,3,4, True,"preveen", "rama", "shiva", "kishor"}
+
+s.remove("preveen") # only one element can remove
+print(s)

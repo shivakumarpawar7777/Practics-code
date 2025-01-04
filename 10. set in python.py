@@ -15,3 +15,16 @@ print(s)
 
 s = {}
 print((s))
+
+"""# accesing 
+s = {0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,"set",1,2.3,3,4, True}
+print(s[0])"""
+
+#adding elements to the set
+
+s = {"preveen", "rama", "shiva", "kishor"}
+s.add("pawar")
+print(s)
+
+s.remove("pawar")
+print(s)
